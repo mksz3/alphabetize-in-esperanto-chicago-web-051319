@@ -1,5 +1,6 @@
 def alphabetize(arr)
+  alpha = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
   arr.sort_by { |item|
-    item
+    item.index_in
   }
 end
