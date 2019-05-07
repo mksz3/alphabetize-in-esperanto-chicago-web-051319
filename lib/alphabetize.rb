@@ -1,6 +1,6 @@
 def alphabetize(arr)
   alpha = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  arr.sort_by { |item|
-    item.index_in
-  }
+   output = arr.sort_by do |word|
+    word.split('').collect do |letter|
+      alphabet.index(letter)
 end
